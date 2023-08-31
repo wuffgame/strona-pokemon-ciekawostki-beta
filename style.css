@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {background-color: yellow}
+
+#wrapper {
+    max-width: 800px;
+    margin: 0 auto ;
+    background-color: #FFFF87;
+}
+
+header img {
+    width: 100%;
+    display: block;
+        
+}
+
+nav {
+    background-color: darkcyan;
+    
+}
+
+a.menu {
+    display: inline-block;
+    width: 24%;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.menu:hover {
+    background-color: red
+}
+.active {
+    background-color: red
+}
+section {
+    text-align: center
+}
+footer {
+    text-align: center
+}
